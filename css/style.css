@@ -34,13 +34,14 @@
 
 .miniLogoDisplay {
     margin-left: 7px;
-    width: 36px;
+    min-width: 36px;
+    max-width: 36px;
     height: auto;
 }
 
 @media all and (max-width: 991px) {
     .miniLogoDisplay {
-        margin-left: 4px;
+        margin-left: 3px;
     }
 }
 
@@ -142,7 +143,8 @@
 }
 
 .navButtonSize {
-    padding: 2px;
+    padding: 3px;
+    margin-left: 1px;
 }
 
 .cardAnchorTag {
